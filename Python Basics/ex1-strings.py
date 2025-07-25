@@ -11,7 +11,7 @@ print("Hi {new_name}. You are {age} years old".format(new_name="Sally", age=100)
 # string indexes, str is an order seq of characteres
 # Guess the output of each print statement before you click RUN!
 python = "I am PYHTON"
-# [start:stop]
+# [start:stop:stepover], stepover default is 1
 
 print(python[1:4])  # am
 print(python[1:])  # am PYHTON
