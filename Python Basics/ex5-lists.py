@@ -21,4 +21,3 @@ print(bonus)  # [1,2,3,5]
 # copying a list
 copy_list = new_list.copy()
 # Avoid copy_list = my_list (this just creates a reference)
-#
