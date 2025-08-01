@@ -33,3 +33,12 @@ print(fruits)  # ['apple', 'cherry', 'tomato']
 # clear - removes all the elements from a list. doesn't return a value
 fruits.clear()
 print(fruits)  # []
+
+new_basket = ["a", "b", "c", "c", " e"]
+# index - returns the position at the first occurence of the specified value
+print(f'index of "c" is {new_basket.index("c")}')
+print("c" in new_basket)  # True
+print("x" in new_basket)  # False
+
+# count - returns the numer of elements with the specified value
+print(new_basket.count("c"))  # 2
